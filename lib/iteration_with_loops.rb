@@ -5,5 +5,6 @@ def find_even_values(src)
     if arr[count]%2 == 0
       puts arr[count]
     end
+    count += 1
   end
 end
